@@ -5,14 +5,14 @@ $_MSSQLPass = 		"sqlp@ssword!";	// MS SQL password
 $_MSSQLDB = 		"cwwebapp_ets";	// MS SQL connectwise database name
 
 $_cacheTimeout = 	"60"; 		// queries are cached for XX seconds 
-$_memcachedHost = 	"localhost";
-$_memcachedPort = 	"11211";
-$scew =			215;
+$_memcachedHost = 	"localhost";	// memcached Host
+$_memcachedPort = 	"11211";	// memcached Port
+$scew =			215;		// time clock skew bug from CW
 
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 error_reporting(E_ALL ^ E_NOTICE);
-$_debugLog = __DIR__."/var/debug.log";
+$_debugLog = 		__DIR__."/var/debug.log";	// location of debug log file
 
 // include all libraries __DIR__/lib/*.php
 foreach (glob(__DIR__."/lib/*.php") as $file) {
