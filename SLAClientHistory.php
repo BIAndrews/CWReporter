@@ -68,15 +68,15 @@ foreach ($SLADetails as $k => $a) {
 	$c++;
 
 	print "<tr>
-<th class=\"$col1\">$a[year_nbr]/$a[month_nbr]</a> </td>
-<th class=\"$allTDs\">$a[board_name]/$a[agr_name]</a> </td>
-<th class=\"$allTDs\">$a[responded_hours]/$a[resplan_hours]/$a[resolution_hours]</a> </td>
-<th class=\"$allTDs\">$a[responded_pct]%/$a[resplan_pct]%/$a[resolution_pct]%</a> </td>
-<th class=\"$allTDs\">$a[tickets_created]/$a[tickets_responded]</a> </td>
-<th class=\"$allTDs\">$a[met_responded_sla]/$a[responded_pct_actual]%</a> </td>
-<th class=\"$allTDs\">$a[AvgHrsToResponded]/$a[AvgHrsToResplan]/$a[AvgHrsToResolved]</a> </td>
-<th class=\"$allTDs\">$a[tickets_resplan]/$a[met_resplan_sla]/$a[resplan_pct_actual]%</a> </td>
-<th class=\"$allTDs\">$a[tickets_resolved]/$a[met_resolution_sla]/$a[resolved_pct_actual]%</a> </td>
+<td class=\"$col1\">$a[year_nbr]/$a[month_nbr]</a> </td>
+<td class=\"$allTDs\">$a[board_name]/$a[agr_name]</a> </td>
+<td class=\"$allTDs\">$a[responded_hours]/$a[resplan_hours]/$a[resolution_hours]</a> </td>
+<td class=\"$allTDs\">$a[responded_pct]%/$a[resplan_pct]%/$a[resolution_pct]%</a> </td>
+<td class=\"$allTDs\">$a[tickets_created]/$a[tickets_responded]</a> </td>
+<td class=\"$allTDs\">$a[met_responded_sla]/$a[responded_pct_actual]%</a> </td>
+<td class=\"$allTDs\">$a[AvgHrsToResponded]/$a[AvgHrsToResplan]/$a[AvgHrsToResolved]</a> </td>
+<td class=\"$allTDs\">$a[tickets_resplan]/$a[met_resplan_sla]/$a[resplan_pct_actual]%</a> </td>
+<td class=\"$allTDs\">$a[tickets_resolved]/$a[met_resolution_sla]/$a[resolved_pct_actual]%</a> </td>
 
 	</tr>\n";
 }
